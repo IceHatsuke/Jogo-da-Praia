@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ColetaItens : MonoBehaviour
 {
+
     public int points = 5;  // Pontuação do item
 
-    
- }
+}
