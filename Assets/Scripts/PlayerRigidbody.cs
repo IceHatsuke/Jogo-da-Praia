@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class PlayerRigidbody : MonoBehaviour
 {
-    public float velocidade = 10f; 
-    
-  
+    public float velocidade = 10f;
+
+    private int score = 0;
 
     private Rigidbody rb;
-    
+
+    private PlayerRigidbody scoreManager;
+    private bool isTouchingItem = false;
+    private ColetaItens currentItem;
+
 
     void Start()
     {
@@ -28,5 +32,12 @@ public class PlayerRigidbody : MonoBehaviour
       
         rb.MovePosition(rb.position + transform.TransformDirection(movimento)); 
         
+    }
+
+    public void AddPoints(int points)
+    {
+        score += points;
+        Debug.Log("Pontuação: " + score);
+        // Você pode adicionar lógica para atualizar a pontuação na interface do usuário aqui
     }
 }
