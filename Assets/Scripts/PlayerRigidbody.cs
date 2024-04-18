@@ -51,10 +51,10 @@ public class PlayerRigidbody : MonoBehaviour
     {
        
         // Verifica se o personagem está colidindo com um item
-        if ( other.transform.parent && other.transform.GetComponent<ColetaItens>() != null)
+        if ( other.transform.parent && other.transform.parent.GetComponent<ColetaItens>() != null)
         {
             isTouchingItem = true;
-            currentItem = other.GetComponent<ColetaItens>();
+            currentItem = other.transform.parent.GetComponent<ColetaItens>();
         }
     }
 
@@ -71,7 +71,8 @@ public class PlayerRigidbody : MonoBehaviour
     void CollectItem()
     {
         // Adiciona pontos ao score manager
-        score++;
+        score += currentItem.points;
+
 
         // Destroi o item
         Destroy(currentItem.gameObject);
