@@ -17,7 +17,7 @@ public class HandAnimator : MonoBehaviour
     }
 
     
-    void Update()
+    public void Update()
     {
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
@@ -32,10 +32,13 @@ public class HandAnimator : MonoBehaviour
 
         }
 
-
+        
 
     }
 
-    
+    public void Teste()
+    {
+        Debug.Log("Clicou no Botao");
+    }
 
 }

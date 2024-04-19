@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.SocialPlatforms.Impl;
@@ -7,14 +8,20 @@ using UnityEngine.SocialPlatforms.Impl;
 public class PlayerRigidbody : MonoBehaviour
 {
     public float velocidade = 10f;
+    public static float lixoColetado = 0;
+
+
 
     public int score = 0;
 
     private Rigidbody rb;
 
+    public TextMeshProUGUI coletaLixo;
+    public TextMeshProUGUI moedas;
     private PlayerRigidbody scoreManager;
     private bool isTouchingItem = false;
     private ColetaItens currentItem;
+
 
 
     void Start()
@@ -72,6 +79,7 @@ public class PlayerRigidbody : MonoBehaviour
     {
         // Adiciona pontos ao score manager
         score += currentItem.points;
+        coletaLixo.text = "0" + score.ToString();
 
 
         // Destroi o item
@@ -80,12 +88,5 @@ public class PlayerRigidbody : MonoBehaviour
         // Redefine o indicador e a referência ao item atual
         isTouchingItem = false;
         currentItem = null;
-    }
-
-    public void AddPoints(int points)
-    {
-        score += points;
-        Debug.Log("Pontuação: " + score);
-        // Você pode adicionar lógica para atualizar a pontuação na interface do usuário aqui
     }
 }
