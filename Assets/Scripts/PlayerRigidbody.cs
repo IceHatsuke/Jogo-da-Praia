@@ -79,7 +79,7 @@ public class PlayerRigidbody : MonoBehaviour
     {
         // Adiciona pontos ao score manager
         score += currentItem.points;
-        coletaLixo.text = "0" + score.ToString();
+        coletaLixo.text = "" + score.ToString();
 
 
         // Destroi o item
