@@ -10,7 +10,7 @@ public class PlayerRigidbody : MonoBehaviour
     public float velocidade = 10f;
     public static float lixoColetado = 0;
 
-    
+       
     public VariableJoystick variableJoystick; //variavel joystick
 
 
@@ -79,7 +79,9 @@ public class PlayerRigidbody : MonoBehaviour
         }
     }
 
-    void CollectItem()
+    //
+
+    public void CollectItem()
     {
         // Adiciona pontos ao score manager
         score += currentItem.points;
