@@ -10,6 +10,9 @@ public class PlayerRigidbody : MonoBehaviour
     public float velocidade = 10f;
     public static float lixoColetado = 0;
 
+    
+    public VariableJoystick variableJoystick; //variavel joystick
+
 
 
     public int score = 0;
@@ -33,11 +36,12 @@ public class PlayerRigidbody : MonoBehaviour
 
     void Update()
     {
+                
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
 
         
-        Vector3 movimento = new Vector3(moveHorizontal, 0f, moveVertical) * velocidade * Time.deltaTime;
+        Vector3 movimento = new Vector3(variableJoystick.Horizontal, 0f, variableJoystick.Vertical) * velocidade * Time.deltaTime;
 
       
         rb.MovePosition(rb.position + transform.TransformDirection(movimento));
