@@ -4,13 +4,16 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.SocialPlatforms.Impl;
+using UnityEngine.UI;
 
 public class PlayerRigidbody : MonoBehaviour
 {
     public float velocidade = 10f;
     public static float lixoColetado = 0;
 
-       
+    public Button botaoPegar;
+
+
     public VariableJoystick variableJoystick; //variavel joystick
 
 
@@ -32,6 +35,7 @@ public class PlayerRigidbody : MonoBehaviour
        
         rb = GetComponent<Rigidbody>();
         scoreManager = GetComponent<PlayerRigidbody>();
+        botaoPegar.onClick.AddListener(OnClick);
     }
 
     void Update()
@@ -45,7 +49,11 @@ public class PlayerRigidbody : MonoBehaviour
 
       
         rb.MovePosition(rb.position + transform.TransformDirection(movimento));
+              
+    }
 
+    void OnClick()
+    {
         // Verifica se o jogador toca na tela
         if (Input.GetMouseButtonDown(0) || Input.touchCount > 0)
         {
@@ -55,7 +63,6 @@ public class PlayerRigidbody : MonoBehaviour
                 CollectItem();
             }
         }
-
     }
 
     void OnTriggerEnter(Collider other)
