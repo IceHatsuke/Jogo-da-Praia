@@ -20332,6 +20332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 50
+  botaoPegar: {fileID: 0}
   variableJoystick: {fileID: 1080641657}
   score: 0
   coletaLixo: {fileID: 75675973}
@@ -24076,6 +24077,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteNormal: {fileID: 21300000, guid: da66600296af402438b408c1c4593e77, type: 3}
   spriteTroca: {fileID: 21300000, guid: c074e6f91599f8e4aae3448aedf3594b, type: 3}
+  botaoTrocar: {fileID: 0}
 --- !u!1001 &742141063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29784,6 +29786,7 @@ GameObject:
   - component: {fileID: 944360209}
   - component: {fileID: 944360208}
   - component: {fileID: 944360207}
+  - component: {fileID: 944360210}
   m_Layer: 5
   m_Name: ButtonToReplace
   m_TagString: Untagged
@@ -29854,7 +29857,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 944360208}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 944360210}
+        m_TargetAssemblyTypeName: TrocaObjeto, Assembly-CSharp
+        m_MethodName: TrocarObjetos
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &944360208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29893,6 +29908,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 944360205}
   m_CullTransparentMesh: 1
+--- !u!114 &944360210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944360205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a69c6fa847188914ba99d890c5cc92a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objeto1: {fileID: 1375330887}
+  objeto2: {fileID: 1618837676}
 --- !u!1001 &946370154
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58905,7 +58934,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1818651849
 RectTransform:
   m_ObjectHideFlags: 0
