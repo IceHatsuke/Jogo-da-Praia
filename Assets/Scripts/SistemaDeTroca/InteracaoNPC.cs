@@ -5,7 +5,7 @@ using UnityEngine;
 public class InteracaoNPC : MonoBehaviour
 {
     public GameObject canvasTroca;
-    
+    public GameObject player;
 
     private PlayerRigidbody playerRigidbody; // Referência para o script PlayerController
     private bool playerInside = false; // Verifica se o personagem está dentro da área de interação
@@ -13,6 +13,7 @@ public class InteracaoNPC : MonoBehaviour
 
     private void Start()
     {
+        player = GameObject.Find("Player");
         // Desativa o canvas no início para garantir que não esteja visível inicialmente
         if (canvasTroca != null)
         {
@@ -32,6 +33,7 @@ public class InteracaoNPC : MonoBehaviour
             if (canvasTroca != null)
             {
                 canvasTroca.SetActive(true);
+                PlayerRigidbody.podeMover = false;
             }
         }
     }

@@ -23,6 +23,11 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(PlayerRigidbody.podeMover == false)
+        {
+            return;
+        }
+
         Vector2 controleMouse = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
         rotacaoMouse = new Vector2(rotacaoMouse.x + controleMouse.x * sensibilidade * Time.deltaTime, rotacaoMouse.y + controleMouse.y * sensibilidade * Time.deltaTime);
         _transform.eulerAngles = new Vector3(_transform.eulerAngles.x, rotacaoMouse.x, _transform.eulerAngles.z);

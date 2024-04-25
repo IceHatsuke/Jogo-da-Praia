@@ -12,7 +12,7 @@ public class PlayerRigidbody : MonoBehaviour
 
     public static int moeda = 0;
     
-
+    public static bool podeMover = true;
 
 
     public static int score = 10;
@@ -38,7 +38,10 @@ public class PlayerRigidbody : MonoBehaviour
     void Update()
     {
 
-       
+       if(podeMover == false)
+       {
+            return;
+       }
 
         
         float moveHorizontal = Input.GetAxis("Horizontal");
