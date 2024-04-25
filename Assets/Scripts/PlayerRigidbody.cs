@@ -96,7 +96,7 @@ public class PlayerRigidbody : MonoBehaviour
 
          moeda++;
         // Atualiza o texto das canvas_Moedas na interface do usuário
-        canvas_Moedas.text = "canvas_Moedas: " + canvas_Moedas.ToString();
+        canvas_Moedas.text = " " + canvas_Moedas.ToString();
 
         // Destroi o item
         Destroy(currentItem.gameObject);

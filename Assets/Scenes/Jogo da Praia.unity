@@ -1469,6 +1469,7 @@ GameObject:
   m_Component:
   - component: {fileID: 45970479}
   - component: {fileID: 45970480}
+  - component: {fileID: 45970481}
   m_Layer: 0
   m_Name: Arame (53)
   m_TagString: Untagged
@@ -1546,6 +1547,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &45970481
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45970478}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000030517578, y: 0, z: 0}
 --- !u!4 &46984563 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 498268, guid: 4dd1e9d81689b8c45892550d2670fbb8, type: 3}
@@ -3422,6 +3444,7 @@ GameObject:
   m_Component:
   - component: {fileID: 127978068}
   - component: {fileID: 127978069}
+  - component: {fileID: 127978070}
   m_Layer: 0
   m_Name: Arame (22)
   m_TagString: Untagged
@@ -3498,6 +3521,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &127978070
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127978067}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000045776367, y: 0, z: 0}
 --- !u!1001 &130516763
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3783,6 +3827,7 @@ GameObject:
   m_Component:
   - component: {fileID: 140300204}
   - component: {fileID: 140300205}
+  - component: {fileID: 140300206}
   m_Layer: 0
   m_Name: Arame (49)
   m_TagString: Untagged
@@ -3859,6 +3904,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &140300206
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140300203}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000045776367, y: 0, z: 0.000030517578}
 --- !u!1 &140750169
 GameObject:
   m_ObjectHideFlags: 0
@@ -4099,6 +4165,7 @@ GameObject:
   m_Component:
   - component: {fileID: 143808418}
   - component: {fileID: 143808419}
+  - component: {fileID: 143808420}
   m_Layer: 0
   m_Name: Arame (68)
   m_TagString: Untagged
@@ -4175,6 +4242,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &143808420
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143808417}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000061035156, y: 0, z: 0.000030517578}
 --- !u!1001 &146947965
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4636,8 +4724,8 @@ GameObject:
   m_Component:
   - component: {fileID: 151003048}
   - component: {fileID: 151003047}
-  - component: {fileID: 151003049}
   - component: {fileID: 151003050}
+  - component: {fileID: 151003051}
   m_Layer: 0
   m_Name: Arame
   m_TagString: Untagged
@@ -4733,8 +4821,8 @@ Transform:
   - {fileID: 313020738}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &151003049
-MeshCollider:
+--- !u!65 &151003050
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4751,11 +4839,10 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
---- !u!65 &151003050
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &151003051
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5446,6 +5533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 169985429}
   - component: {fileID: 169985430}
+  - component: {fileID: 169985431}
   m_Layer: 0
   m_Name: Arame (40)
   m_TagString: Untagged
@@ -5523,6 +5611,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &169985431
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169985428}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000038146973, y: 0, z: 0.000030517578}
 --- !u!1001 &175014714
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5984,6 +6093,7 @@ GameObject:
   - component: {fileID: 203274948}
   - component: {fileID: 203274950}
   - component: {fileID: 203274949}
+  - component: {fileID: 203274951}
   m_Layer: 0
   m_Name: Arame (12)
   m_TagString: Untagged
@@ -6083,6 +6193,27 @@ MeshCollider:
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!65 &203274950
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203274946}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &203274951
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6591,6 +6722,7 @@ GameObject:
   - component: {fileID: 219926200}
   - component: {fileID: 219926202}
   - component: {fileID: 219926201}
+  - component: {fileID: 219926203}
   m_Layer: 0
   m_Name: Arame (11)
   m_TagString: Untagged
@@ -6711,11 +6843,58 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 20.84, y: 20.84, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &219926203
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219926198}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &223222450 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 498268, guid: 4dd1e9d81689b8c45892550d2670fbb8, type: 3}
   m_PrefabInstance: {fileID: 887572707}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &227984522 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fa11bbe3efff7714180830a76b958306, type: 3}
+  m_PrefabInstance: {fileID: 1323320113}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &227984526
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227984522}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.004802168, y: 0.0048354906, z: 0.008767197}
+  m_Center: {x: 0.000041025876, y: -0.0002995279, z: -0.000013644219}
 --- !u!1 &228983462
 GameObject:
   m_ObjectHideFlags: 0
@@ -8887,6 +9066,7 @@ GameObject:
   m_Component:
   - component: {fileID: 295379821}
   - component: {fileID: 295379822}
+  - component: {fileID: 295379823}
   m_Layer: 0
   m_Name: Arame (18)
   m_TagString: Untagged
@@ -8963,6 +9143,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &295379823
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295379820}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000030517578, y: 0, z: 0.000030517578}
 --- !u!1001 &296849528
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9126,6 +9327,7 @@ GameObject:
   m_Component:
   - component: {fileID: 302383615}
   - component: {fileID: 302383616}
+  - component: {fileID: 302383617}
   m_Layer: 0
   m_Name: Arame (28)
   m_TagString: Untagged
@@ -9203,6 +9405,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &302383617
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302383614}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000045776367, y: 0, z: 0.000030517578}
 --- !u!4 &308956114 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 418196, guid: 0a57273401feb6f4595604b38068f100, type: 3}
@@ -9218,6 +9441,7 @@ GameObject:
   m_Component:
   - component: {fileID: 309917551}
   - component: {fileID: 309917552}
+  - component: {fileID: 309917553}
   m_Layer: 0
   m_Name: Arame (32)
   m_TagString: Untagged
@@ -9294,6 +9518,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &309917553
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309917550}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000038146973, y: 0, z: 0.000030517578}
 --- !u!4 &311686072 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 453314, guid: 4efefa57238889a4e9a6867514dbbd9e, type: 3}
@@ -9314,6 +9559,7 @@ GameObject:
   m_Component:
   - component: {fileID: 313020738}
   - component: {fileID: 313020739}
+  - component: {fileID: 313020740}
   m_Layer: 0
   m_Name: Arame (3)
   m_TagString: Untagged
@@ -9409,6 +9655,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &313020740
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313020737}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &315278170
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10052,6 +10319,7 @@ GameObject:
   m_Component:
   - component: {fileID: 334520990}
   - component: {fileID: 334520991}
+  - component: {fileID: 334520992}
   m_Layer: 0
   m_Name: Arame (67)
   m_TagString: Untagged
@@ -10129,6 +10397,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &334520992
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334520989}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000030517578, y: 0, z: 0}
 --- !u!4 &336349148 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 409460, guid: 83e00ee61e401534699048e56c0a1bc9, type: 3}
@@ -10678,6 +10967,7 @@ GameObject:
   m_Component:
   - component: {fileID: 351387747}
   - component: {fileID: 351387748}
+  - component: {fileID: 351387749}
   m_Layer: 0
   m_Name: Arame (21)
   m_TagString: Untagged
@@ -10754,6 +11044,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &351387749
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351387746}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000030517578, y: 0, z: 0.000030517578}
 --- !u!1 &352049411
 GameObject:
   m_ObjectHideFlags: 0
@@ -11135,6 +11446,7 @@ GameObject:
   m_Component:
   - component: {fileID: 360866516}
   - component: {fileID: 360866517}
+  - component: {fileID: 360866518}
   m_Layer: 0
   m_Name: Arame (36)
   m_TagString: Untagged
@@ -11211,6 +11523,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &360866518
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360866515}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000038146973, y: 0, z: 0}
 --- !u!1 &361188810
 GameObject:
   m_ObjectHideFlags: 0
@@ -11307,6 +11640,7 @@ GameObject:
   m_Component:
   - component: {fileID: 361299151}
   - component: {fileID: 361299152}
+  - component: {fileID: 361299153}
   m_Layer: 0
   m_Name: Arame (44)
   m_TagString: Untagged
@@ -11383,6 +11717,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &361299153
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361299150}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000030517578, y: 0, z: 0.000030517578}
 --- !u!4 &363176535 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 498268, guid: 4dd1e9d81689b8c45892550d2670fbb8, type: 3}
@@ -13013,7 +13368,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1403437457}
   m_HandleRect: {fileID: 1403437456}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0.99999994
   m_Size: 0.34042683
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -13845,6 +14200,7 @@ GameObject:
   - component: {fileID: 419185424}
   - component: {fileID: 419185426}
   - component: {fileID: 419185425}
+  - component: {fileID: 419185427}
   m_Layer: 0
   m_Name: Arame (7)
   m_TagString: Untagged
@@ -13944,6 +14300,27 @@ MeshCollider:
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!65 &419185426
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419185422}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &419185427
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14520,6 +14897,7 @@ GameObject:
   m_Component:
   - component: {fileID: 445366945}
   - component: {fileID: 445366946}
+  - component: {fileID: 445366947}
   m_Layer: 0
   m_Name: Arame (63)
   m_TagString: Untagged
@@ -14596,6 +14974,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &445366947
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445366944}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000061035156, y: 0, z: 0}
 --- !u!4 &447885365 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 409460, guid: 83e00ee61e401534699048e56c0a1bc9, type: 3}
@@ -15462,6 +15861,7 @@ GameObject:
   - component: {fileID: 469820947}
   - component: {fileID: 469820949}
   - component: {fileID: 469820948}
+  - component: {fileID: 469820950}
   m_Layer: 0
   m_Name: Arame (5)
   m_TagString: Untagged
@@ -15562,6 +15962,27 @@ MeshCollider:
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!65 &469820949
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469820945}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &469820950
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15939,6 +16360,7 @@ GameObject:
   m_Component:
   - component: {fileID: 479121368}
   - component: {fileID: 479121369}
+  - component: {fileID: 479121370}
   m_Layer: 0
   m_Name: Arame (33)
   m_TagString: Untagged
@@ -16015,6 +16437,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &479121370
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479121367}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.7300627}
+  m_Center: {x: -0.00004005432, y: 0, z: -0.26503152}
 --- !u!4 &482480638 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 498268, guid: 4dd1e9d81689b8c45892550d2670fbb8, type: 3}
@@ -16277,6 +16720,7 @@ GameObject:
   m_Component:
   - component: {fileID: 500730837}
   - component: {fileID: 500730838}
+  - component: {fileID: 500730839}
   m_Layer: 0
   m_Name: Arame (39)
   m_TagString: Untagged
@@ -16354,6 +16798,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &500730839
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 500730836}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.00004196167, y: 0, z: 0}
 --- !u!1001 &501354425
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16875,6 +17340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 528782705}
   - component: {fileID: 528782706}
+  - component: {fileID: 528782707}
   m_Layer: 0
   m_Name: Arame (42)
   m_TagString: Untagged
@@ -16952,6 +17418,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &528782707
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528782704}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000045776367, y: 0, z: 0.000030517578}
 --- !u!1001 &531336802
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17447,6 +17934,7 @@ GameObject:
   m_Component:
   - component: {fileID: 547217775}
   - component: {fileID: 547217776}
+  - component: {fileID: 547217777}
   m_Layer: 0
   m_Name: Arame (61)
   m_TagString: Untagged
@@ -17523,6 +18011,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &547217777
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547217774}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000061035156, y: 0, z: 0}
 --- !u!1 &547217803
 GameObject:
   m_ObjectHideFlags: 0
@@ -17533,6 +18042,7 @@ GameObject:
   m_Component:
   - component: {fileID: 547217804}
   - component: {fileID: 547217805}
+  - component: {fileID: 547217806}
   m_Layer: 0
   m_Name: Arame (43)
   m_TagString: Untagged
@@ -17609,6 +18119,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &547217806
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547217803}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000045776367, y: 0, z: 0}
 --- !u!4 &548107074 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 453314, guid: 4efefa57238889a4e9a6867514dbbd9e, type: 3}
@@ -18204,6 +18735,7 @@ GameObject:
   m_Component:
   - component: {fileID: 559220717}
   - component: {fileID: 559220718}
+  - component: {fileID: 559220719}
   m_Layer: 0
   m_Name: Arame (29)
   m_TagString: Untagged
@@ -18281,6 +18813,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &559220719
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559220716}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.00004005432, y: 0, z: 0}
 --- !u!4 &560883789 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 498268, guid: 4dd1e9d81689b8c45892550d2670fbb8, type: 3}
@@ -18301,6 +18854,7 @@ GameObject:
   m_Component:
   - component: {fileID: 568247395}
   - component: {fileID: 568247396}
+  - component: {fileID: 568247397}
   m_Layer: 0
   m_Name: Arame (1)
   m_TagString: Untagged
@@ -18377,6 +18931,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &568247397
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568247394}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000061035156, y: 0, z: 0}
 --- !u!1 &571373973
 GameObject:
   m_ObjectHideFlags: 0
@@ -18387,6 +18962,7 @@ GameObject:
   m_Component:
   - component: {fileID: 571373974}
   - component: {fileID: 571373975}
+  - component: {fileID: 571373976}
   m_Layer: 0
   m_Name: Arame (58)
   m_TagString: Untagged
@@ -18463,6 +19039,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &571373976
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571373973}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000030517578, y: 0, z: 0.000030517578}
 --- !u!1 &571435097
 GameObject:
   m_ObjectHideFlags: 0
@@ -18475,6 +19072,7 @@ GameObject:
   - component: {fileID: 571435099}
   - component: {fileID: 571435101}
   - component: {fileID: 571435100}
+  - component: {fileID: 571435102}
   m_Layer: 0
   m_Name: Arame (8)
   m_TagString: Untagged
@@ -18594,6 +19192,27 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 20.84, y: 20.84, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &571435102
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571435097}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &572199706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18678,6 +19297,7 @@ GameObject:
   m_Component:
   - component: {fileID: 576963777}
   - component: {fileID: 576963778}
+  - component: {fileID: 576963779}
   m_Layer: 0
   m_Name: Arame (25)
   m_TagString: Untagged
@@ -18755,6 +19375,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &576963779
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576963776}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000045776367, y: 0, z: 0}
 --- !u!4 &578794225 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 498268, guid: 4dd1e9d81689b8c45892550d2670fbb8, type: 3}
@@ -19226,6 +19867,7 @@ GameObject:
   m_Component:
   - component: {fileID: 592815161}
   - component: {fileID: 592815162}
+  - component: {fileID: 592815163}
   m_Layer: 0
   m_Name: Arame (64)
   m_TagString: Untagged
@@ -19302,6 +19944,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &592815163
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592815160}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000030517578, y: 0, z: 0}
 --- !u!4 &595130291 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 453314, guid: 4efefa57238889a4e9a6867514dbbd9e, type: 3}
@@ -20014,6 +20677,7 @@ GameObject:
   m_Component:
   - component: {fileID: 616786370}
   - component: {fileID: 616786371}
+  - component: {fileID: 616786372}
   m_Layer: 0
   m_Name: Arame (26)
   m_TagString: Untagged
@@ -20091,6 +20755,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &616786372
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616786369}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000045776367, y: 0, z: 0}
 --- !u!4 &619134172 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 409460, guid: 83e00ee61e401534699048e56c0a1bc9, type: 3}
@@ -20398,6 +21083,7 @@ GameObject:
   - component: {fileID: 633162432}
   - component: {fileID: 633162434}
   - component: {fileID: 633162433}
+  - component: {fileID: 633162435}
   m_Layer: 0
   m_Name: Arame (27)
   m_TagString: Untagged
@@ -20497,6 +21183,27 @@ MeshCollider:
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!65 &633162434
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633162430}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &633162435
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -21328,6 +22035,7 @@ GameObject:
   m_Component:
   - component: {fileID: 662476737}
   - component: {fileID: 662476738}
+  - component: {fileID: 662476739}
   m_Layer: 0
   m_Name: Arame (14)
   m_TagString: Untagged
@@ -21405,6 +22113,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &662476739
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662476736}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000030517578, y: 0, z: 0.000030517578}
 --- !u!1 &664222798
 GameObject:
   m_ObjectHideFlags: 0
@@ -23943,6 +24672,7 @@ GameObject:
   m_Component:
   - component: {fileID: 728352485}
   - component: {fileID: 728352486}
+  - component: {fileID: 728352487}
   m_Layer: 0
   m_Name: Arame (16)
   m_TagString: Untagged
@@ -24019,6 +24749,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &728352487
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728352484}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000030517578, y: 0, z: 0.000030517578}
 --- !u!1001 &729591203
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24704,6 +25455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 744782562}
   - component: {fileID: 744782563}
+  - component: {fileID: 744782564}
   m_Layer: 0
   m_Name: Arame (62)
   m_TagString: Untagged
@@ -24780,6 +25532,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &744782564
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744782561}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000030517578, y: 0, z: 0.000030517578}
 --- !u!4 &745278397 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 453314, guid: 4efefa57238889a4e9a6867514dbbd9e, type: 3}
@@ -26254,6 +27027,7 @@ GameObject:
   m_Component:
   - component: {fileID: 799093999}
   - component: {fileID: 799094000}
+  - component: {fileID: 799094001}
   m_Layer: 0
   m_Name: Arame (46)
   m_TagString: Untagged
@@ -26330,6 +27104,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &799094001
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799093998}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000030517578, y: 0, z: 0.000030517578}
 --- !u!1 &799439783
 GameObject:
   m_ObjectHideFlags: 0
@@ -26712,6 +27507,7 @@ GameObject:
   m_Component:
   - component: {fileID: 811516025}
   - component: {fileID: 811516026}
+  - component: {fileID: 811516027}
   m_Layer: 0
   m_Name: Arame (23)
   m_TagString: Untagged
@@ -26788,6 +27584,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &811516027
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811516024}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000045776367, y: 0, z: 0}
 --- !u!1001 &812112297
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30390,6 +31207,7 @@ GameObject:
   - component: {fileID: 935635487}
   - component: {fileID: 935635486}
   - component: {fileID: 935635485}
+  - component: {fileID: 935635488}
   m_Layer: 0
   m_Name: Arame (3)
   m_TagString: Untagged
@@ -30543,6 +31361,27 @@ Transform:
   - {fileID: 1863341494}
   m_Father: {fileID: 151003048}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!65 &935635488
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935635484}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &937138434 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 498268, guid: 4dd1e9d81689b8c45892550d2670fbb8, type: 3}
@@ -31039,6 +31878,7 @@ GameObject:
   m_Component:
   - component: {fileID: 963022798}
   - component: {fileID: 963022799}
+  - component: {fileID: 963022800}
   m_Layer: 0
   m_Name: Arame (34)
   m_TagString: Untagged
@@ -31115,6 +31955,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &963022800
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963022797}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000038146973, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -33396,7 +34257,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000061035156, y: -556.0219}
+  m_AnchoredPosition: {x: -0.000061035156, y: -556.02185}
   m_SizeDelta: {x: -6.9271, y: 1112.0438}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1033149074
@@ -34419,6 +35280,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1066657079}
   - component: {fileID: 1066657080}
+  - component: {fileID: 1066657081}
   m_Layer: 0
   m_Name: Arame (57)
   m_TagString: Untagged
@@ -34496,6 +35358,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1066657081
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066657078}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000061035156, y: 0, z: 0}
 --- !u!4 &1067351993 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 498268, guid: 4dd1e9d81689b8c45892550d2670fbb8, type: 3}
@@ -34641,7 +35524,7 @@ GameObject:
   - component: {fileID: 1072916411}
   - component: {fileID: 1072916412}
   - component: {fileID: 1072916414}
-  - component: {fileID: 1072916413}
+  - component: {fileID: 1072916415}
   m_Layer: 0
   m_Name: Arame (6)
   m_TagString: Untagged
@@ -34718,8 +35601,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!64 &1072916413
-MeshCollider:
+--- !u!65 &1072916414
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -34736,11 +35619,10 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
---- !u!65 &1072916414
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &1072916415
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -35810,6 +36692,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1102810909}
   - component: {fileID: 1102810910}
+  - component: {fileID: 1102810911}
   m_Layer: 0
   m_Name: Arame (37)
   m_TagString: Untagged
@@ -35886,6 +36769,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1102810911
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102810908}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.00004196167, y: 0, z: 0.000030517578}
 --- !u!4 &1105166027 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 498268, guid: 4dd1e9d81689b8c45892550d2670fbb8, type: 3}
@@ -37852,6 +38756,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1160142235}
   - component: {fileID: 1160142236}
+  - component: {fileID: 1160142237}
   m_Layer: 0
   m_Name: Arame (30)
   m_TagString: Untagged
@@ -37928,6 +38833,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1160142237
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160142234}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000045776367, y: 0, z: 0.000030517578}
 --- !u!1001 &1163319691
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40555,6 +41481,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1244327491}
   - component: {fileID: 1244327492}
+  - component: {fileID: 1244327493}
   m_Layer: 0
   m_Name: Arame (56)
   m_TagString: Untagged
@@ -40632,6 +41559,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1244327493
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244327490}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000030517578, y: 0, z: 0.000030517578}
 --- !u!4 &1246776442 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 418196, guid: 0a57273401feb6f4595604b38068f100, type: 3}
@@ -41028,6 +41976,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1269423317}
   - component: {fileID: 1269423318}
+  - component: {fileID: 1269423319}
   m_Layer: 0
   m_Name: RECEBA
   m_TagString: Untagged
@@ -41104,6 +42053,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1269423319
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269423316}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.24, y: 2.85, z: 0.2}
+  m_Center: {x: 0, y: -0.0000009536743, z: 0}
 --- !u!1001 &1270622510
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42429,6 +43399,7 @@ GameObject:
   - component: {fileID: 1309579627}
   - component: {fileID: 1309579629}
   - component: {fileID: 1309579628}
+  - component: {fileID: 1309579630}
   m_Layer: 0
   m_Name: Arame (86)
   m_TagString: Untagged
@@ -42476,15 +43447,15 @@ Transform:
   - {fileID: 2068388528}
   - {fileID: 744782562}
   - {fileID: 1748904837}
+  - {fileID: 351387747}
+  - {fileID: 140300204}
+  - {fileID: 1102810909}
   - {fileID: 1926629229}
   - {fileID: 1950640078}
   - {fileID: 445366945}
-  - {fileID: 351387747}
   - {fileID: 360866516}
-  - {fileID: 140300204}
   - {fileID: 592815161}
   - {fileID: 127978068}
-  - {fileID: 1102810909}
   - {fileID: 1951137061}
   - {fileID: 1705520945}
   - {fileID: 811516025}
@@ -42579,6 +43550,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1309579630
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309579626}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000061035156, y: 0, z: 0}
 --- !u!1001 &1309795266
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42912,6 +43904,7 @@ GameObject:
   - component: {fileID: 1315936051}
   - component: {fileID: 1315936052}
   - component: {fileID: 1315936053}
+  - component: {fileID: 1315936054}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -42994,7 +43987,7 @@ Transform:
   m_GameObject: {fileID: 1315936047}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 743.02, y: 11.38, z: 0.17}
+  m_LocalPosition: {x: 742.93, y: 11.49, z: 0.02}
   m_LocalScale: {x: 3.5, y: 3.5, z: 0.64}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -43013,6 +44006,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasTroca: {fileID: 1129610877}
+  player: {fileID: 0}
 --- !u!65 &1315936052
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43050,6 +44044,28 @@ MonoBehaviour:
   moedasPorLixo: 1
   coletaLixo: {fileID: 0}
   moedas: {fileID: 0}
+--- !u!95 &1315936054
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315936047}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 329a3b08bf86c5441abbeadeecb6f43d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &1318013455 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 498268, guid: 4dd1e9d81689b8c45892550d2670fbb8, type: 3}
@@ -43363,19 +44379,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fa11bbe3efff7714180830a76b958306, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6800002
+      value: 0.1034923
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fa11bbe3efff7714180830a76b958306, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.6800002
+      value: -0.1034923
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fa11bbe3efff7714180830a76b958306, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.19390674
+      value: -0.6994923
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fa11bbe3efff7714180830a76b958306, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.19390674
+      value: -0.6994923
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fa11bbe3efff7714180830a76b958306, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -43387,7 +44403,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fa11bbe3efff7714180830a76b958306, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 31.832
+      value: -163.168
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: fa11bbe3efff7714180830a76b958306, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -43395,12 +44411,15 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 01441350f43b2c5409f9e386b622239f, type: 2}
     - target: {fileID: 919132149155446097, guid: fa11bbe3efff7714180830a76b958306, type: 3}
       propertyPath: m_Name
-      value: model_5f4c4f85-a765-4185-8868-5965fb7ccce1
+      value: Quiosque
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fa11bbe3efff7714180830a76b958306, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 227984526}
   m_SourcePrefab: {fileID: 100100000, guid: fa11bbe3efff7714180830a76b958306, type: 3}
 --- !u!1 &1324732094
 GameObject:
@@ -44195,6 +45214,7 @@ GameObject:
   - component: {fileID: 1342233020}
   - component: {fileID: 1342233022}
   - component: {fileID: 1342233021}
+  - component: {fileID: 1342233023}
   m_Layer: 0
   m_Name: Arame (1)
   m_TagString: Untagged
@@ -44294,6 +45314,27 @@ MeshCollider:
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!65 &1342233022
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342233018}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &1342233023
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -45659,6 +46700,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1389286189}
   - component: {fileID: 1389286190}
+  - component: {fileID: 1389286191}
   m_Layer: 0
   m_Name: Arame (52)
   m_TagString: Untagged
@@ -45736,6 +46778,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1389286191
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389286188}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000045776367, y: 0, z: 0.000030517578}
 --- !u!1001 &1395584656
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45916,7 +46979,7 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1708064487}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.6595732}
+  m_AnchorMin: {x: 0, y: 0.65957314}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -46521,7 +47584,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1413084133}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2079289570}
+        m_TargetAssemblyTypeName: Botao, Assembly-CSharp
+        m_MethodName: ClicarParaFechar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1413084133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46658,6 +47733,7 @@ GameObject:
   - component: {fileID: 1415788062}
   - component: {fileID: 1415788064}
   - component: {fileID: 1415788063}
+  - component: {fileID: 1415788065}
   m_Layer: 0
   m_Name: Arame (13)
   m_TagString: Untagged
@@ -46757,6 +47833,27 @@ MeshCollider:
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!65 &1415788064
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415788060}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &1415788065
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -48264,6 +49361,7 @@ GameObject:
   - component: {fileID: 1458751008}
   - component: {fileID: 1458751010}
   - component: {fileID: 1458751009}
+  - component: {fileID: 1458751011}
   m_Layer: 0
   m_Name: Arame (2)
   m_TagString: Untagged
@@ -48363,6 +49461,27 @@ MeshCollider:
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!65 &1458751010
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458751006}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &1458751011
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -50666,6 +51785,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1521497615}
   - component: {fileID: 1521497616}
+  - component: {fileID: 1521497617}
   m_Layer: 0
   m_Name: Arame (59)
   m_TagString: Untagged
@@ -50742,6 +51862,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1521497617
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521497614}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000061035156, y: 0, z: 0}
 --- !u!1001 &1522128803
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50809,6 +51950,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1522604130}
   - component: {fileID: 1522604131}
+  - component: {fileID: 1522604132}
   m_Layer: 0
   m_Name: Arame (51)
   m_TagString: Untagged
@@ -50885,6 +52027,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1522604132
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522604129}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000030517578, y: 0, z: 0}
 --- !u!4 &1522660044 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 498268, guid: 4dd1e9d81689b8c45892550d2670fbb8, type: 3}
@@ -51328,6 +52491,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1533898078}
   - component: {fileID: 1533898079}
+  - component: {fileID: 1533898080}
   m_Layer: 0
   m_Name: Arame (55)
   m_TagString: Untagged
@@ -51405,6 +52569,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1533898080
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533898077}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000038146973, y: 0, z: 0}
 --- !u!4 &1535622498 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 418196, guid: 0a57273401feb6f4595604b38068f100, type: 3}
@@ -52965,6 +54150,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1581397665}
   - component: {fileID: 1581397666}
+  - component: {fileID: 1581397667}
   m_Layer: 0
   m_Name: Arame (60)
   m_TagString: Untagged
@@ -53041,6 +54227,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1581397667
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581397664}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000030517578, y: 0, z: 0.000030517578}
 --- !u!4 &1583617362 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 409460, guid: 83e00ee61e401534699048e56c0a1bc9, type: 3}
@@ -53113,6 +54320,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1586325785}
   - component: {fileID: 1586325786}
+  - component: {fileID: 1586325787}
   m_Layer: 0
   m_Name: Arame (38)
   m_TagString: Untagged
@@ -53189,6 +54397,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1586325787
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586325784}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000038146973, y: 0, z: 0.000030517578}
 --- !u!1 &1586886395
 GameObject:
   m_ObjectHideFlags: 0
@@ -53200,6 +54429,7 @@ GameObject:
   - component: {fileID: 1586886397}
   - component: {fileID: 1586886396}
   - component: {fileID: 1586886398}
+  - component: {fileID: 1586886399}
   m_Layer: 0
   m_Name: Arame (2)
   m_TagString: Untagged
@@ -53364,6 +54594,27 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: -1
   m_Mesh: {fileID: 0}
+--- !u!65 &1586886399
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586886395}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: 0.000061035156, y: 0, z: 0}
 --- !u!1 &1586938732
 GameObject:
   m_ObjectHideFlags: 0
@@ -53376,6 +54627,7 @@ GameObject:
   - component: {fileID: 1586938734}
   - component: {fileID: 1586938736}
   - component: {fileID: 1586938735}
+  - component: {fileID: 1586938737}
   m_Layer: 0
   m_Name: Arame (3)
   m_TagString: Untagged
@@ -53475,6 +54727,27 @@ MeshCollider:
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!65 &1586938736
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586938732}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &1586938737
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -57014,6 +58287,107 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1687055743
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1687055747}
+  - component: {fileID: 1687055746}
+  - component: {fileID: 1687055745}
+  - component: {fileID: 1687055744}
+  m_Layer: 0
+  m_Name: Spawn (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1687055744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687055743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a06f99c1424da1c44a539b741c3bab83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inimigoPrefab: {fileID: 4657588050395810538, guid: eed3c1f747971a04bbeebd20e51a9065, type: 3}
+  quantidadeMaxima: 10
+  spawnPoint: {fileID: 1687055747}
+--- !u!23 &1687055745
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687055743}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1687055746
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687055743}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1687055747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687055743}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 801.6777, y: 226, z: 99.864}
+  m_LocalScale: {x: 695.9769, y: 32.5, z: 692.3869}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1691222542
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57529,6 +58903,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1705520945}
   - component: {fileID: 1705520946}
+  - component: {fileID: 1705520947}
   m_Layer: 0
   m_Name: Arame (65)
   m_TagString: Untagged
@@ -57605,6 +58980,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1705520947
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705520944}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000061035156, y: 0, z: 0.000030517578}
 --- !u!4 &1707012903 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 498268, guid: 4dd1e9d81689b8c45892550d2670fbb8, type: 3}
@@ -58772,6 +60168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1748904837}
   - component: {fileID: 1748904838}
+  - component: {fileID: 1748904839}
   m_Layer: 0
   m_Name: Arame (20)
   m_TagString: Untagged
@@ -58848,6 +60245,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1748904839
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748904836}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000045776367, y: 0, z: 0.000030517578}
 --- !u!4 &1749587005 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 409460, guid: 83e00ee61e401534699048e56c0a1bc9, type: 3}
@@ -59140,6 +60558,7 @@ GameObject:
   - component: {fileID: 1774255530}
   - component: {fileID: 1774255532}
   - component: {fileID: 1774255531}
+  - component: {fileID: 1774255533}
   m_Layer: 0
   m_Name: Arame (9)
   m_TagString: Untagged
@@ -59239,6 +60658,27 @@ MeshCollider:
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!65 &1774255532
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774255528}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &1774255533
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -61290,6 +62730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1840714394}
   - component: {fileID: 1840714395}
+  - component: {fileID: 1840714396}
   m_Layer: 0
   m_Name: Arame (24)
   m_TagString: Untagged
@@ -61367,6 +62808,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1840714396
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840714393}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000030517578, y: 0, z: 0.000030517578}
 --- !u!1001 &1843295791
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -63201,6 +64663,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1903134793}
   - component: {fileID: 1903134794}
+  - component: {fileID: 1903134795}
   m_Layer: 0
   m_Name: Arame (54)
   m_TagString: Untagged
@@ -63278,6 +64741,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1903134795
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903134792}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000030517578, y: 0, z: 0}
 --- !u!4 &1904855465 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 409460, guid: 83e00ee61e401534699048e56c0a1bc9, type: 3}
@@ -63690,6 +65174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1926629229}
   - component: {fileID: 1926629230}
+  - component: {fileID: 1926629231}
   m_Layer: 0
   m_Name: Arame (35)
   m_TagString: Untagged
@@ -63766,6 +65251,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1926629231
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926629228}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.00004005432, y: 0, z: 0}
 --- !u!4 &1928167243 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 409460, guid: 83e00ee61e401534699048e56c0a1bc9, type: 3}
@@ -64181,6 +65687,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1950640078}
   - component: {fileID: 1950640079}
+  - component: {fileID: 1950640080}
   m_Layer: 0
   m_Name: Arame (48)
   m_TagString: Untagged
@@ -64257,6 +65764,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1950640080
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950640077}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000030517578, y: 0, z: 0.000030517578}
 --- !u!1 &1951137060
 GameObject:
   m_ObjectHideFlags: 0
@@ -64267,6 +65795,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1951137061}
   - component: {fileID: 1951137062}
+  - component: {fileID: 1951137063}
   m_Layer: 0
   m_Name: Arame (50)
   m_TagString: Untagged
@@ -64343,6 +65872,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1951137063
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951137060}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000030517578, y: 0, z: 0}
 --- !u!4 &1952727034 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 409460, guid: 83e00ee61e401534699048e56c0a1bc9, type: 3}
@@ -65100,6 +66650,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1987163268}
   - component: {fileID: 1987163269}
+  - component: {fileID: 1987163270}
   m_Layer: 0
   m_Name: Arame (41)
   m_TagString: Untagged
@@ -65177,6 +66728,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1987163270
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987163267}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000038146973, y: 0, z: 0.000030517578}
 --- !u!1001 &1987750596
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66294,6 +67866,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2019717059}
   - component: {fileID: 2019717060}
+  - component: {fileID: 2019717061}
   m_Layer: 0
   m_Name: Arame (45)
   m_TagString: Untagged
@@ -66370,6 +67943,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &2019717061
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019717058}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000045776367, y: 0, z: 0}
 --- !u!1 &2019965248
 GameObject:
   m_ObjectHideFlags: 0
@@ -67125,6 +68719,7 @@ GameObject:
   - component: {fileID: 2051988113}
   - component: {fileID: 2051988115}
   - component: {fileID: 2051988114}
+  - component: {fileID: 2051988116}
   m_Layer: 0
   m_Name: Arame (10)
   m_TagString: Untagged
@@ -67225,6 +68820,27 @@ MeshCollider:
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!65 &2051988115
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051988111}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &2051988116
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -67563,6 +69179,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2068388528}
   - component: {fileID: 2068388529}
+  - component: {fileID: 2068388530}
   m_Layer: 0
   m_Name: Arame (47)
   m_TagString: Untagged
@@ -67639,6 +69256,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &2068388530
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068388527}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.000045776367, y: 0, z: 0}
 --- !u!1001 &2070357446
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67765,6 +69403,7 @@ GameObject:
   - component: {fileID: 2079289568}
   - component: {fileID: 2079289567}
   - component: {fileID: 2079289566}
+  - component: {fileID: 2079289570}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -67858,6 +69497,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &2079289570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079289565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cab501d16ee9f648bad842ea4696897, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  botaoFechar: {fileID: 1129610877}
+  player: {fileID: 0}
 --- !u!4 &2079959119 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 409460, guid: 83e00ee61e401534699048e56c0a1bc9, type: 3}
@@ -69103,6 +70756,7 @@ GameObject:
   - component: {fileID: 2121267592}
   - component: {fileID: 2121267594}
   - component: {fileID: 2121267593}
+  - component: {fileID: 2121267595}
   m_Layer: 0
   m_Name: Arame (4)
   m_TagString: Untagged
@@ -69222,6 +70876,27 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 20.84, y: 20.84, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &2121267595
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121267590}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2121777151
 GameObject:
   m_ObjectHideFlags: 0
@@ -69318,6 +70993,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2122288579}
   - component: {fileID: 2122288580}
+  - component: {fileID: 2122288581}
   m_Layer: 0
   m_Name: Arame (31)
   m_TagString: Untagged
@@ -69394,6 +71070,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &2122288581
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122288578}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.84, y: 20.84, z: 0.2}
+  m_Center: {x: -0.00004005432, y: 0, z: 0}
 --- !u!1 &2124351629
 GameObject:
   m_ObjectHideFlags: 0
@@ -69490,6 +71187,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2126058598}
   - component: {fileID: 2126058599}
+  - component: {fileID: 2126058600}
   m_Layer: 0
   m_Name: RECEBA
   m_TagString: Untagged
@@ -69566,6 +71264,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &2126058600
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126058597}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.24, y: 2.85, z: 0.2}
+  m_Center: {x: -0.000061035156, y: 0.000030517578, z: 0.000030517578}
 --- !u!1001 &2126498971
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70660,6 +72379,7 @@ SceneRoots:
   - {fileID: 909430607}
   - {fileID: 2079289569}
   - {fileID: 165653157}
+  - {fileID: 1687055747}
   - {fileID: 638816314}
   - {fileID: 151003048}
   - {fileID: 1538755796}
