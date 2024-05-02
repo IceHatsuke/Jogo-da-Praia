@@ -13,7 +13,10 @@ public class CameraController : MonoBehaviour
     public VariableJoystick variableJoystick;
 
     Vector2 rotacaoMouse;
+    private Vector2 rotacaoInput;
+
     public int sensibilidade;
+
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +28,7 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         Vector2 controleMouse = new Vector2(variableJoystick.Horizontal, variableJoystick.Vertical);
         rotacaoMouse = new Vector2(rotacaoMouse.x + controleMouse.x * sensibilidade * Time.deltaTime, rotacaoMouse.y + controleMouse.y * sensibilidade * Time.deltaTime);
         _transform.eulerAngles = new Vector3(_transform.eulerAngles.x, rotacaoMouse.x, _transform.eulerAngles.z);
