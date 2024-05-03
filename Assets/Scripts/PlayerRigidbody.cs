@@ -7,7 +7,7 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class PlayerRigidbody : MonoBehaviour
 {
-    public float velocidade = 10f;
+    public float velocidade = 5f;
     public static int lixoColetado = 10;
 
     public static int moeda = 0;
@@ -46,11 +46,14 @@ public class PlayerRigidbody : MonoBehaviour
         
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
-
+        bool run = Input.GetKeyDown(KeyCode.LeftShift);
         
-        Vector3 movimento = new Vector3(moveHorizontal, 0f, moveVertical) * velocidade * Time.deltaTime;
-
-      
+        Vector3 movimento = new Vector3(moveHorizontal, 0f, moveVertical) * velocidade * Time.deltaTime;   
+        
+        if(run)
+        {
+            movimento *= 2;
+        }
         rb.MovePosition(rb.position + transform.TransformDirection(movimento));
         
 

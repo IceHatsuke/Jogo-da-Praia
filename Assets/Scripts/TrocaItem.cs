@@ -1,52 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Windows;
 
 public class TrocaItem : MonoBehaviour
 {
 
-    public Sprite spriteNormal;
-    public Sprite spriteTroca;
+    public GameObject spriteMao;
+    public GameObject spriteAspirador;
 
     private bool spriteTrocado = false;
 
-    private SpriteRenderer spriteRenderer;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        spriteRenderer.sprite = spriteNormal;
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(1))
+        if(UnityEngine.Input.GetMouseButtonDown(1) && GameManager.gameManager.aspiradorHand == true)
         {
-            if (spriteTrocado)
-            {
-                spriteRenderer.sprite = spriteNormal;
-                spriteTrocado = false;
-            }
-            else
-            {
-                spriteRenderer.sprite = spriteTroca;
-                spriteTrocado = true;
-
-            }
-
-            if (spriteTrocado)
-            {
-                gameObject.GetComponent<SpriteRenderer>().enabled = true;
-                GameObject.FindGameObjectWithTag("OutroSprite").GetComponent<SpriteRenderer>().enabled = false;
-            }
-            else
-            {
-                gameObject.GetComponent<SpriteRenderer>().enabled = false;
-                GameObject.FindGameObjectWithTag("OutroSprite").GetComponent<SpriteRenderer>().enabled = true;
-            }
-
+            spriteTrocado = !spriteTrocado;
         }
+
+        spriteAspirador.SetActive(spriteTrocado);
+        spriteMao.SetActive(!spriteTrocado);
+
     }
 }

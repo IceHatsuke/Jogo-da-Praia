@@ -7,9 +7,6 @@ public class InteracaoNPC : MonoBehaviour
     public GameObject canvasTroca;
     public GameObject player;
 
-    private PlayerRigidbody playerRigidbody; // Referência para o script PlayerController
-    private bool playerInside = false; // Verifica se o personagem está dentro da área de interação
-
 
     private void Start()
     {
